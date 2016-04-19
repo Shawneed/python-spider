@@ -1,0 +1,111 @@
+2016-04-06 15:27:56 [scrapy] INFO: Scrapy 1.0.5 started (bot: itzhaopin)
+2016-04-06 15:27:56 [scrapy] INFO: Optional features available: ssl, http11
+2016-04-06 15:27:56 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'itzhaopin.spiders', 'FEED_URI': 'abc.csv', 'SPIDER_MODULES': ['itzhaopin.spiders'], 'BOT_NAME': 'itzhaopin', 'FEED_FORMAT': 'csv', 'LOG_FILE': 'scrapy.log'}
+2016-04-06 15:27:56 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-06 15:27:57 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-06 15:27:57 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-06 15:27:57 [scrapy] INFO: Enabled item pipelines: 
+2016-04-06 15:27:57 [scrapy] INFO: Spider opened
+2016-04-06 15:27:57 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-06 15:27:57 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=30#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=10#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=0#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=20#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=70#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=40#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=50#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=60#a> (referer: None)
+2016-04-06 15:27:57 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=80#a> (referer: None)
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=30>
+{'catalog': u'\u5e02\u573a\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=24050&keywords=&tid=0&lid=0',
+ 'name': u'CS-\u817e\u8baf\u516c\u76ca\u54c1\u724c\u5408\u4f5c\u521b\u65b0\u5c97\uff08\u6df1\u5733\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'1',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=90#a> (referer: None)
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=10>
+{'catalog': u'\u5e02\u573a\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=24058&keywords=&tid=0&lid=0',
+ 'name': u'OMG193-\u5e7f\u544a\u4ea7\u54c1\u7b56\u5212\uff08\u4e0a\u6d77\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'1',
+ 'workLocation': u'\u4e0a\u6d77'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=0>
+{'catalog': u'\u5e02\u573a\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=24004&keywords=&tid=0&lid=0',
+ 'name': u'SNG12-\u91d1\u878d\u4e91\u5546\u52a1\u62d3\u5c55\u7ecf\u7406\uff08\u6df1\u5733\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'2',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=20>
+{'catalog': u'\u8bbe\u8ba1\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23956&keywords=&tid=0&lid=0',
+ 'name': u'MIG08-\u89c6\u89c9\u8bbe\u8ba1\u5e08\uff08\u5317\u4eac\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'1',
+ 'workLocation': u'\u5317\u4eac'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=70>
+{'catalog': u'\u4ea7\u54c1/\u9879\u76ee\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23559&keywords=&tid=0&lid=0',
+ 'name': u'MIG18-\u5e94\u7528\u5b9d\u9ad8\u7ea7\u6e38\u620f\u8fd0\u8425\u7ecf\u7406\uff08\u6df1\u5733\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'2',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=40>
+{'catalog': u'\u6280\u672f\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23816&keywords=&tid=0&lid=0',
+ 'name': u'HY4-\u4e92\u5a31\u5e94\u7528\u5f00\u53d1\u5de5\u7a0b\u5e08(\u6df1\u5733)',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'3',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=50>
+{'catalog': u'\u4ea7\u54c1/\u9879\u76ee\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23696&keywords=&tid=0&lid=0',
+ 'name': u'15614-SLG \u7cfb\u7edf\u7b56\u5212\uff08\u4e0a\u6d77\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'1',
+ 'workLocation': u'\u4e0a\u6d77'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=60>
+{'catalog': u'\u6280\u672f\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23766&keywords=&tid=0&lid=0',
+ 'name': u'SNG11-\u4e1a\u52a1\u8fd0\u7ef4\u5de5\u7a0b\u5e08\uff08\u6df1\u5733\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'2',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=80>
+{'catalog': u'\u4ea7\u54c1/\u9879\u76ee\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23619&keywords=&tid=0&lid=0',
+ 'name': u'19332-\u4f01\u4e1a\u8f6f\u4ef6\u89e3\u51b3\u65b9\u6848\u9ad8\u7ea7\u4ea7\u54c1\u7ecf\u7406\uff08\u4e0a\u6d77\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'1',
+ 'workLocation': u'\u4e0a\u6d77'}
+2016-04-06 15:27:58 [scrapy] DEBUG: Scraped from <200 http://hr.tencent.com/position.php?&start=90>
+{'catalog': u'\u804c\u80fd\u7c7b',
+ 'detailLink': u'http://hr.tencent.com/position_detail.php?id=23511&keywords=&tid=0&lid=0',
+ 'name': u'S2-AR\u8d22\u52a1\u7ecf\u7406\uff08\u6df1\u5733\uff09',
+ 'publishTime': u'2016-04-06',
+ 'recruitNumber': u'2',
+ 'workLocation': u'\u6df1\u5733'}
+2016-04-06 15:27:58 [scrapy] INFO: Closing spider (finished)
+2016-04-06 15:27:58 [scrapy] INFO: Stored csv feed (10 items) in: abc.csv
+2016-04-06 15:27:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2339,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 39420,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 6, 7, 27, 58, 243000),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 8,
+ 'response_received_count': 10,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2016, 4, 6, 7, 27, 57, 684000)}
+2016-04-06 15:27:58 [scrapy] INFO: Spider closed (finished)
