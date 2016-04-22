@@ -1,5 +1,4 @@
 # python-spider
-This repositories have five spider projects
 项目一：糗事百科爬虫
 项目二：百度贴吧爬虫
 项目三：西刺网站爬虫
