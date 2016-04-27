@@ -36,7 +36,7 @@ def saveImage( imgUrl,imgName ="default.jpg" ):
 
 def getweblist():
 	urls = []
-	for i in range(1500, 1662, 1):
+	for i in range(1500, 1664, 1):
 		url = 'http://jandan.net/ooxx/page-{}#comments'.format(i)
 		urls.append(url)
 	return urls     
